@@ -27,6 +27,11 @@ https://app.nexus.xyz/
 ## --> Contribute via Chromium (Browser on VPS)
 You can install a Chromium browser on your Linux VPS and run a web-broswer based node on it too. [Guide to install Chromium on VPS](https://github.com/0xmoei/Install-Chromium-Linux-Browser)
 
+* Open as many tabs as you want and run provers on all of them, LOL
+* I'm not sure about the performance but hey i'm just testing it
+
+![image](https://github.com/user-attachments/assets/0e004e3c-f73e-4c32-bb86-0043b16259b7)
+
 ---
 
 ## --> Contribute via CLI (NOT LIVE YET, Steps are not accurate)
