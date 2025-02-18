@@ -58,5 +58,10 @@ curl https://cli.nexus.xyz/ | sh
 
 ---
 
+## Contribute via Chromium (Browser on VPS)
+You can install a Chromium browser on your Linux VPS and run a web-broswer based node on it too. [Guide to install Chromium on VPS](https://github.com/0xmoei/Install-Chromium-Linux-Browser)
+
+---
+
 ### Can I use multiple devices?
 Yes, you can connect as many devices as you want, including desktops, laptops, mobile phones, and servers. You can link and manage all your devices from a single Nexus account. You can also prove computations in multiple browser tabs simultaneously.
