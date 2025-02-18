@@ -16,11 +16,11 @@ source $HOME/.cargo/env
 ```
 
 ### 2. Run Prover
-1- Start a screen to keep it running in the background
+**1- Start a screen to keep it running in the background**
 ```bash
 screen -S nexus
 ```
-2- Install and run prover
+**2- Install and run prover**
 ```bash
 curl https://cli.nexus.xyz/ | sh
 ```
@@ -30,7 +30,8 @@ curl https://cli.nexus.xyz/ | sh
 >
 > To kill screen: `screen -XS nexus quit`
 
-3- There will be `prover-id` file in `/root/.nexus` directory. (Best way to access files on VPS is using Mobaxterm or Termius client to connect to them)
+**3- There will be `prover-id` file in `/root/.nexus` directory**
+*Best way to access files on VPS is using Mobaxterm or Termius client to connect to them*
 
 
 ### 3. Create account
