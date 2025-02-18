@@ -1,6 +1,8 @@
 # Nexus Prover Node
 You earn NEX Points by contributing compute and interacting with the Nexus ecosystem.
 
+---
+
 ## --> Create account
 * Create an account at https://app.nexus.xyz.
 
@@ -12,6 +14,7 @@ You earn NEX Points by contributing compute and interacting with the Nexus ecosy
 
 * Manage all your nodes in one place.
 
+---
 
 ## --> Contribute via Web browser
 Login into the dashboard and press the button to start your node
