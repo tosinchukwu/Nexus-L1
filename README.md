@@ -4,7 +4,9 @@ You earn NEX Points by contributing compute and interacting with the Nexus ecosy
 ---
 
 ### Can I use multiple devices?
-Yes, you can connect as many devices as you want, including desktops, laptops, mobile phones, and servers. You can link and manage all your devices from a single Nexus account. You can also prove computations in multiple browser tabs simultaneously.
+* Yes, you can connect as many devices as you want, including desktops, laptops, mobile phones, and servers
+* You can link and manage all your devices from a single Nexus account.
+* You can also prove computations in multiple browser tabs simultaneously.
 
 ---
 
