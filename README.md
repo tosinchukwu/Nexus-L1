@@ -59,7 +59,7 @@ curl https://cli.nexus.xyz/ | sh
 
 2- Enter you `node-id`
 * To find your `node-id`, go  to https://app.nexus.xyz/nodes
-* Click `Add Node` and copy your `node-id` and paste in terminal
+* Click `Add Node`, click `Add CLI Node` and copy your `node-id` and paste in terminal
 
 ### 4. Manage your Node screen:
 * To minimze the screen: `CTRL+A+D`
