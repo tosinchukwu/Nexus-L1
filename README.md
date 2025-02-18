@@ -41,7 +41,7 @@ curl https://cli.nexus.xyz/ | sh
 >
 > To kill screen: `screen -XS nexus quit`
 
-**3- There will be `prover-id` file in `/root/.nexus` directory**
+**3- There will be `prover-id` file in `/root/.nexus` directory. You need it to link to your account**
 
 *Best way to access files on VPS is using Mobaxterm or Termius client to connect to them*
 
