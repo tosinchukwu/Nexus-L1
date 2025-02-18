@@ -1,7 +1,7 @@
 # Nexus Prover Node
 You earn NEX Points by contributing compute and interacting with the Nexus ecosystem.
 
-## Contribute via Web browser
+## --> Contribute via Web browser
 Login into the dashboard and press the button to start your node
 https://app.nexus.xyz/
 
@@ -9,7 +9,7 @@ https://app.nexus.xyz/
 - Link and manage all your devices from a single Nexus account.
 - More computations = More NEX points
 
-## Contribute via CLI
+## --> Contribute via CLI
 ### 1. Install Dependecies
 ```bash
 sudo apt update & sudo apt upgrade -y
@@ -58,7 +58,7 @@ curl https://cli.nexus.xyz/ | sh
 
 ---
 
-## Contribute via Chromium (Browser on VPS)
+## --> Contribute via Chromium (Browser on VPS)
 You can install a Chromium browser on your Linux VPS and run a web-broswer based node on it too. [Guide to install Chromium on VPS](https://github.com/0xmoei/Install-Chromium-Linux-Browser)
 
 ---
