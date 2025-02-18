@@ -1,6 +1,18 @@
 # Nexus Prover Node
 You earn NEX Points by contributing compute and interacting with the Nexus ecosystem.
 
+## --> Create account
+* Create an account at https://app.nexus.xyz.
+
+* Follow the account linking instructions.
+
+* Your contributions will earn NEX Points.
+
+* Track your progress on the leaderboard.
+
+* Manage all your nodes in one place.
+
+
 ## --> Contribute via Web browser
 Login into the dashboard and press the button to start your node
 
@@ -10,7 +22,14 @@ https://app.nexus.xyz/
 - Link and manage all your devices from a single Nexus account.
 - More computations = More NEX points
 
-## --> Contribute via CLI
+---
+
+## --> Contribute via Chromium (Browser on VPS)
+You can install a Chromium browser on your Linux VPS and run a web-broswer based node on it too. [Guide to install Chromium on VPS](https://github.com/0xmoei/Install-Chromium-Linux-Browser)
+
+---
+
+## --> Contribute via CLI (NOT LIVE YET, Steps are not accurate)
 ### 1. Install Dependecies
 ```bash
 sudo apt update & sudo apt upgrade -y
@@ -24,8 +43,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 ```
 
----
-
 ### 2. Run Prover
 **1- Start a screen to keep it running in the background**
 ```bash
@@ -36,33 +53,22 @@ screen -S nexus
 curl https://cli.nexus.xyz/ | sh
 ```
 
-**3- To link you Node, after installation complete, it asks you to enter your `node-id`**
+### 3. Link Node
+, you have to link your node
+
+1- After installation command completes, it asks you if you want to link your node press `2`
+![image](https://github.com/user-attachments/assets/603d8a8e-5be5-485d-b4b8-76a9639aa836)
+
+2- Enter you `node-id`
 * To find your `node-id`, go  to https://app.nexus.xyz/nodes
-* Click `Add Node` and copy your `node-id`
+* Click `Add Node` and copy your `node-id` and paste in terminal
 
-To manage your screen:
-> To minimze the screen: `CTRL+A+D`
->
-> To return to screen: `screen -r nexus`
->
-> To kill screen: `screen -XS nexus quit`
----
+### 4. Manage your Node screen:
+* To minimze the screen: `CTRL+A+D`
 
-### 3. Create account
-* Create an account at https://app.nexus.xyz.
+* To return to screen: `screen -r nexus`
 
-* Follow the account linking instructions and link your `prover-id`
-
-* Your contributions will earn NEX Points.
-
-* Track your progress on the leaderboard.
-
-* Manage all your nodes in one place.
-
----
-
-## --> Contribute via Chromium (Browser on VPS)
-You can install a Chromium browser on your Linux VPS and run a web-broswer based node on it too. [Guide to install Chromium on VPS](https://github.com/0xmoei/Install-Chromium-Linux-Browser)
+* To kill screen: `screen -XS nexus quit`
 
 ---
 
