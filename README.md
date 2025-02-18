@@ -15,6 +15,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 ```
 
+---
+
 ### 2. Run Prover
 **1- Start a screen to keep it running in the background**
 ```bash
@@ -33,6 +35,7 @@ curl https://cli.nexus.xyz/ | sh
 **3- There will be `prover-id` file in `/root/.nexus` directory**
 *Best way to access files on VPS is using Mobaxterm or Termius client to connect to them*
 
+---
 
 ### 3. Create account
 * Create an account at https://app.nexus.xyz.
@@ -44,6 +47,8 @@ curl https://cli.nexus.xyz/ | sh
 * Track your progress on the leaderboard.
 
 * Manage all your nodes in one place.
+
+---
 
 ### Can I use multiple devices?
 Yes, you can connect as many devices as you want, including desktops, laptops, mobile phones, and servers. You can link and manage all your devices from a single Nexus account. You can also prove computations in multiple browser tabs simultaneously.
