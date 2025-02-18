@@ -54,8 +54,6 @@ curl https://cli.nexus.xyz/ | sh
 ```
 
 ### 3. Link Node
-, you have to link your node
-
 1- After installation command completes, it asks you if you want to link your node press `2`
 ![image](https://github.com/user-attachments/assets/603d8a8e-5be5-485d-b4b8-76a9639aa836)
 
