@@ -35,16 +35,17 @@ screen -S nexus
 ```bash
 curl https://cli.nexus.xyz/ | sh
 ```
+
+**3- To link you Node, after installation complete, it asks you to enter your `node-id`**
+* To find your `node-id`, go  to https://app.nexus.xyz/nodes
+* Click `Add Node` and copy your `node-id`
+
+To manage your screen:
 > To minimze the screen: `CTRL+A+D`
 >
 > To return to screen: `screen -r nexus`
 >
 > To kill screen: `screen -XS nexus quit`
-
-**3- There will be `prover-id` file in `/root/.nexus` directory. You need it to link to your account**
-
-*Best way to access files on VPS is using Mobaxterm or Termius client to connect to them*
-
 ---
 
 ### 3. Create account
