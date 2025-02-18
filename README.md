@@ -3,6 +3,7 @@ You earn NEX Points by contributing compute and interacting with the Nexus ecosy
 
 ## --> Contribute via Web browser
 Login into the dashboard and press the button to start your node
+
 https://app.nexus.xyz/
 
 - You can run prover nodes on multiple browser tabs, desktops, laptops, mobile phones.
