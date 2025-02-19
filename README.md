@@ -58,6 +58,15 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```bash
 source $HOME/.cargo/env
 ```
+```bash
+rustup target add riscv32i-unknown-none-elf
+```
+```bash
+rustup target add riscv32i-unknown-none-elf
+```
+```bash
+cargo config --global set build.unstable-features true
+```
 
 ### 2. Run Prover
 **1- Start a screen to keep it running in the background**
@@ -76,6 +85,9 @@ curl https://cli.nexus.xyz/ | sh
 2- Enter you `node-id`
 * To find your `node-id`, go  to https://app.nexus.xyz/nodes
 * Click `Add Node`, click `Add CLI Node` and copy your `node-id` and paste in terminal
+
+![image](https://github.com/user-attachments/assets/754e4b13-9400-4108-9c3f-b0bba6c40132)
+
 
 ### 4. Manage your Node screen:
 * To minimze the screen: `CTRL+A+D`
