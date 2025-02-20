@@ -45,7 +45,8 @@ You can install a Chromium browser on your Linux VPS and run a web-broswer based
 
 ---
 
-## --> Contribute via CLI (NOT LIVE YET, Steps are not accurate)
+## --> Contribute via CLI
+You might need a free +8GB RAM, you'd better to test it yourself since the testnet is under cunstructions
 ### 1. Install Dependecies
 ```bash
 sudo apt update & sudo apt upgrade -y
@@ -60,12 +61,6 @@ source $HOME/.cargo/env
 ```
 ```bash
 rustup target add riscv32i-unknown-none-elf
-```
-```bash
-rustup target add riscv32i-unknown-none-elf
-```
-```bash
-cargo config --global set build.unstable-features true
 ```
 
 ### 2. Run Prover
