@@ -92,7 +92,7 @@ nexus-network start --node-id your-node-id
 * Replace `your-node-id` with the one acquired in the next step.
 
 ### 3. Link Node
-**Link Node via Web:**
+---> **Link Node via Web:**
 
 1- After installation command completes, it asks you if you want to link your node press `2`
 ![image](https://github.com/user-attachments/assets/603d8a8e-5be5-485d-b4b8-76a9639aa836)
@@ -103,7 +103,7 @@ nexus-network start --node-id your-node-id
 
 ![image](https://github.com/user-attachments/assets/754e4b13-9400-4108-9c3f-b0bba6c40132)
 
-**Link Node via CLI:**
+---> **Link Node via CLI:**
 
 1- Register your wallet address
 ```
