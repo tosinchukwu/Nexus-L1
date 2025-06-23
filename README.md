@@ -127,8 +127,9 @@ nexus-network register-node
 
 3- Run node
 ```
-nexus-network start
+nexus-network start --node-id your-node-id
 ```
+* Replace `your-node-id` with the newly created node id
 * The `register-user` and `register-node` commands will save your credentials to `~/.nexus/credentials.json`. To clear credentials, run:
 ```bash
 nexus-network logout
@@ -150,10 +151,11 @@ nexus-network register-node
 
 * Run 2nd Node with 2nd Node ID:
 ```
-nexus-network start
+nexus-network start --node-id your-node-id
 ```
+* Replace `your-node-id` with the newly created one
 
-* Monitor your server's RAM and CPU via `htop` command to see how many nodes you can run
+**Note**: Monitor your server's RAM and CPU via `htop` command to see how many nodes you can run
 ```console
 # install htop
 sudo apt install htop
