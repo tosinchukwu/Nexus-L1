@@ -110,6 +110,8 @@ nexus-network start --node-id your-node-id
 
 1- Register your wallet address
 ```
+source ~/.bashrc
+
 nexus-network register-user --wallet-address your-wallet-address
 ```
 * Replace `your-wallet-address` with your EVM wallet address
@@ -121,6 +123,8 @@ nexus-network register-node
 
 3- Run node
 ```
+source ~/.bashrc
+
 nexus-network start
 ```
 * The `register-user` and `register-node` commands will save your credentials to `~/.nexus/credentials.json`. To clear credentials, run:
@@ -170,9 +174,19 @@ cd glibc-build
 make -j$(nproc)
 sudo make install
 ```
+```
+cd
+```
 
-6- Run `nexus-network` commands with `LD_LIBRARY_PATH=/opt/glibc-2.39/lib`
+6- Instead of running `nexus-network` command, run `/opt/glibc-2.39/lib/ld-linux-x86-64.so.2 --library-path /opt/glibc-2.39/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu /usr/local/bin/nexus-network`. For example: 
 ```
-LD_LIBRARY_PATH=/opt/glibc-2.39/lib nexus-network register-user --wallet-address your-wallet-address
+/opt/glibc-2.39/lib/ld-linux-x86-64.so.2 --library-path /opt/glibc-2.39/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu /root/.nexus/bin/nexus-network register-user --wallet-address your-wallet-address
 ```
+*  Note, In the above command, my `nexus-network` directory is `/root/.nexus/bin/nexus-network`, if you got error in finding the correct nexus directory, run these:
+```
+source ~/.bashrc
+which nexus-network
+```
+* Now replace `/root/.nexus/bin/nexus-network` with the output.
+
 
