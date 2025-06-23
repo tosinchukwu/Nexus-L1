@@ -130,6 +130,24 @@ nexus-network start
 nexus-network logout
 ```
 
+### Earn more NEX? Run Multiple CLI Nodes:
+Now you can create more Node sessions by creating more screens. for example, to create the 2nd node:
+* Create 2nd screen:
+```
+screen -S nexus2
+```
+
+* Create 2nd node ID:
+```
+nexus-network register-node
+```
+
+* Run 2nd Node with 2nd Node ID:
+```
+nexus-network start
+```
+
+
 ### 4. Manage your Node screen:
 * To minimze the screen: `CTRL+A+D`
 
