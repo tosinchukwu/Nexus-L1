@@ -130,10 +130,6 @@ nexus-network register-node
 nexus-network start --node-id your-node-id
 ```
 * Replace `your-node-id` with the newly created node id
-* The `register-user` and `register-node` commands will save your credentials to `~/.nexus/credentials.json`. To clear credentials, run:
-```bash
-nexus-network logout
-```
 
 ---
 
