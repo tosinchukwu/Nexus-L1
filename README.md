@@ -80,6 +80,8 @@ source $HOME/.cargo/env
 rustup target add riscv32i-unknown-none-elf
 ```
 
+---
+
 ### 2. Run Prover
 **1- Start a screen to keep it running in the background**
 ```bash
@@ -98,6 +100,8 @@ source ~/.bashrc
 nexus-network start --node-id your-node-id
 ```
 * Replace `your-node-id` with the one acquired in the next step.
+
+---
 
 ### 3. Create Node ID
 * ---> **Create Node ID via Web:**
@@ -130,6 +134,8 @@ nexus-network start
 nexus-network logout
 ```
 
+---
+
 ### Earn more NEX? Run Multiple CLI Nodes:
 Now you can create more Node sessions by creating more screens. for example, to create the 2nd node:
 * Create 2nd screen:
@@ -147,6 +153,16 @@ nexus-network register-node
 nexus-network start
 ```
 
+* Monitor your server's RAM and CPU via `htop` command to see how many nodes you can run
+```console
+# install htop
+sudo apt install htop
+
+# run htop
+htop
+```
+
+---
 
 ### 4. Manage your Node screen:
 * To minimze the screen: `CTRL+A+D`
