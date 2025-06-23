@@ -106,8 +106,6 @@ nexus-network start --node-id your-node-id
 
 2- Click `Add Node`, click `Add CLI Node` and copy your `node-id` and paste in terminal
 
-![image](https://github.com/user-attachments/assets/754e4b13-9400-4108-9c3f-b0bba6c40132)
-
 ---> **Node ID via CLI:**
 
 1- Register your wallet address
