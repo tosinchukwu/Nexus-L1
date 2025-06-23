@@ -43,6 +43,13 @@ https://app.nexus.xyz/
 
 ---
 
+## --> One-click-deployment 
+1- Register in [mintair.xyz](https://mintair.xyz/onboarding?ref=EF5V-UYBN)
+
+2- Buy a ready-to-go Nexus node
+
+---
+
 ## --> Contribute via Chromium (Browser on VPS)
 You can install a Chromium browser on your Linux VPS and run a web-broswer based node on it too. [Guide to install Chromium on VPS](https://github.com/0xmoei/Install-Chromium-Linux-Browser)
 
