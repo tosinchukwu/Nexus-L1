@@ -137,4 +137,42 @@ nexus-network logout
 
 ---
 
+## Debugging
+### Error: nexus-network: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.39' not found (required by nexus-network)
+1- Confirm your installed GLIBC version:
+```
+ldd --version
+```
+* It must be `2.39`, if not, continue the steps.
+
+2- Install dependencies:
+```
+sudo apt update
+sudo apt install -y gawk bison gcc make wget tar
+```
+
+3- Download GLIBC 2.39:
+```
+wget -c https://ftp.gnu.org/gnu/glibc/glibc-2.39.tar.gz
+tar -zxvf glibc-2.39.tar.gz
+cd glibc-2.39
+```
+
+4- Create a build directory:
+```
+mkdir glibc-build
+cd glibc-build
+```
+
+5- Build
+```
+../configure --prefix=/opt/glibc-2.39
+make -j$(nproc)
+sudo make install
+```
+
+6- Run `nexus-network` commands with `LD_LIBRARY_PATH=/opt/glibc-2.39/lib`
+```
+LD_LIBRARY_PATH=/opt/glibc-2.39/lib nexus-network register-user --wallet-address your-wallet-address
+```
 
