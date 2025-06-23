@@ -91,6 +91,7 @@ curl https://cli.nexus.xyz/ | sh
 ```
 
 **3- Run with an existing node ID**
+
 ```
 source ~/.bashrc
 
@@ -98,19 +99,16 @@ nexus-network start --node-id your-node-id
 ```
 * Replace `your-node-id` with the one acquired in the next step.
 
-### 3. Link Node
----> **Link Node via Web:**
+### 3. Create Node ID
+---> **Node ID via Web:**
 
-1- After installation command completes, it asks you if you want to link your node press `2`
-![image](https://github.com/user-attachments/assets/603d8a8e-5be5-485d-b4b8-76a9639aa836)
+1- Go to https://app.nexus.xyz/nodes
 
-2- Enter you `node-id`
-* To find your `node-id`, go  to https://app.nexus.xyz/nodes
-* Click `Add Node`, click `Add CLI Node` and copy your `node-id` and paste in terminal
+2- Click `Add Node`, click `Add CLI Node` and copy your `node-id` and paste in terminal
 
 ![image](https://github.com/user-attachments/assets/754e4b13-9400-4108-9c3f-b0bba6c40132)
 
----> **Link Node via CLI:**
+---> **Node ID via CLI:**
 
 1- Register your wallet address
 ```
