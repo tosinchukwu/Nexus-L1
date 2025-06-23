@@ -44,7 +44,7 @@ https://app.nexus.xyz/
 ---
 
 ## --> One-click-deployment 
-1- Register in [mintair.xyz](https://mintair.xyz/onboarding?ref=EF5V-UYBN)
+1- Register in [Mintair](https://mintair.xyz/onboarding?ref=EF5V-UYBN)
 
 2- Buy a ready-to-go Nexus node
 
