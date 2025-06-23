@@ -102,9 +102,8 @@ nexus-network start --node-id your-node-id
 ### 3. Create Node ID
 ---> **Node ID via Web:**
 
-1- Go to https://app.nexus.xyz/nodes
-
-2- Click `Add Node`, click `Add CLI Node` and copy your `node-id` and paste in terminal
+* 1- Go to https://app.nexus.xyz/nodes
+* 2- Click `Add Node`, click `Add CLI Node` and copy your `node-id` and paste in terminal
 
 ---> **Node ID via CLI:**
 
