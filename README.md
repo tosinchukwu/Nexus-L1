@@ -92,7 +92,16 @@ screen -S nexus
 curl https://cli.nexus.xyz/ | sh
 ```
 
-**3- Run with an existing node ID**
+**3- Register your wallet address**
+```
+source ~/.bashrc
+
+nexus-network register-user --wallet-address your-wallet-address
+```
+* Replace `your-wallet-address` with your EVM wallet address
+
+
+**4- Run with an existing node ID**
 
 ```
 source ~/.bashrc
@@ -112,20 +121,12 @@ nexus-network start --node-id your-node-id
 
 * ---> **Create Node ID via CLI:**
 
-1- Register your wallet address
-```
-source ~/.bashrc
-
-nexus-network register-user --wallet-address your-wallet-address
-```
-* Replace `your-wallet-address` with your EVM wallet address
-
-2- Create node ID
+1- Create node ID
 ```
 nexus-network register-node
 ```
 
-3- Run node
+2- Run node
 ```
 nexus-network start --node-id your-node-id
 ```
